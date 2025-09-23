@@ -5,7 +5,7 @@ import math
 
 pygame.init()
 
-WIDTH, HEIGHT = 1280, 640
+WIDTH, HEIGHT = 1210, 650
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Aim Trainer")
@@ -23,7 +23,7 @@ LABEL_FONT = pygame.font.SysFont("comicsans", 24)
 class Target:
     MAX_SIZE = 30
     GROWTH_RATE = 0.2
-    COLOR = "red"
+    COLOR = "green"
     SECOND_COLOR = "white"
     def __init__(self, x, y):
         self.x = x
